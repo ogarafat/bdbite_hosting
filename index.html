@@ -2,32 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>QbitNode</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BDbite – Premium Hosting</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="assets/css/custom.css">
+  <meta name="description" content="BDbite provides high-performance VPS, Game Hosting & RDP in Bangladesh and Singapore.">
 </head>
-<body>
+<body class="bg-slate-900 text-white font-sans">
 
-  <header>
-    <h1>Welcome to QbitNode</h1>
-    <p>Fast • Secure • Reliable Hosting</p>
-  </header>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="status.html">Status</a>
-    <a href="contact.html">Contact</a>
+  <!-- NAVBAR -->
+  <nav class="max-w-7xl mx-auto flex justify-between items-center p-6">
+    <h1 class="text-2xl font-bold text-blue-500">BD<span class="text-white">bite</span></h1>
+    <div class="hidden md:flex gap-6">
+      <a href="index.html" class="hover:text-blue-400">Home</a>
+      <a href="pricing.html" class="hover:text-blue-400">Plans</a>
+      <a href="status.html" class="hover:text-blue-400">Status</a>
+      <a href="contact.html" class="hover:text-blue-400">Contact</a>
+      <a href="login.html" class="bg-blue-600 px-5 py-2 rounded">Client Area</a>
+    </div>
   </nav>
 
-  <main>
-    <h2>About Us</h2>
-    <p>QbitNode provides high performance server solutions.</p>
-  </main>
+  <!-- HERO SECTION -->
+  <header class="text-center py-24 px-4">
+    <h1 class="text-5xl font-extrabold">Fast & Reliable <span class="text-blue-500">Hosting</span></h1>
+    <p class="text-gray-400 mt-6 max-w-2xl mx-auto">
+      High-performance VPS, RDP, and Game Servers powered by NVMe & Ryzen CPUs
+    </p>
+    <div class="mt-10 flex justify-center gap-4">
+      <a href="pricing.html" class="bg-blue-600 px-8 py-3 rounded font-bold">Get Started</a>
+      <a href="status.html" class="border border-gray-600 px-8 py-3 rounded">System Status</a>
+    </div>
+  </header>
 
-  <footer>
-    <p>© 2026 QbitNode. All rights reserved.</p>
+  <!-- FEATURES -->
+  <section class="max-w-7xl mx-auto grid md:grid-cols-4 gap-6 px-6 py-16">
+    <div class="card p-6 rounded-xl text-center">⚡ Ryzen 9 CPUs</div>
+    <div class="card p-6 rounded-xl text-center">🛡 DDoS Protection</div>
+    <div class="card p-6 rounded-xl text-center">🌍 BD & SG Locations</div>
+    <div class="card p-6 rounded-xl text-center">📞 24/7 Support</div>
+  </section>
+
+  <!-- POPULAR PLANS -->
+  <section id="plans" class="max-w-7xl mx-auto px-6 py-20">
+    <h3 class="text-3xl font-bold text-center mb-12">Popular Plans</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="card p-8 rounded-xl text-center">
+        <h4 class="text-xl font-bold">Minecraft BDIX</h4>
+        <p class="text-4xl font-bold my-4">৳650<span class="text-sm text-gray-400">/mo</span></p>
+        <ul class="text-gray-400 space-y-2">
+          <li>4GB RAM</li>
+          <li>2 vCPU</li>
+          <li>NVMe SSD</li>
+          <li>Unlimited Slots</li>
+        </ul>
+        <a href="signup.html" class="mt-6 w-full block bg-blue-600 py-3 rounded">Order Now</a>
+      </div>
+      <div class="card p-8 rounded-xl text-center ring-2 ring-blue-500">
+        <h4 class="text-xl font-bold">DDR4 VPS</h4>
+        <p class="text-4xl font-bold my-4">৳1375<span class="text-sm text-gray-400">/mo</span></p>
+        <ul class="text-gray-400 space-y-2">
+          <li>8GB RAM</li>
+          <li>4 vCPU</li>
+          <li>80GB NVMe</li>
+          <li>Dedicated IPv4</li>
+        </ul>
+        <a href="signup.html" class="mt-6 w-full block bg-blue-600 py-3 rounded">Order Now</a>
+      </div>
+      <div class="card p-8 rounded-xl text-center">
+        <h4 class="text-xl font-bold">SG VPS</h4>
+        <p class="text-4xl font-bold my-4">৳850<span class="text-sm text-gray-400">/mo</span></p>
+        <ul class="text-gray-400 space-y-2">
+          <li>4GB RAM</li>
+          <li>2 vCPU</li>
+          <li>NVMe SSD</li>
+          <li>100Mbps Network</li>
+        </ul>
+        <a href="signup.html" class="mt-6 w-full block bg-blue-600 py-3 rounded">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-center py-10 text-gray-400">
+    <p>© 2026 BDbite Hosting. All Rights Reserved.</p>
+    <div class="space-x-4 mt-4">
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
   </footer>
 
 </body>
-</html>
+    </html>
