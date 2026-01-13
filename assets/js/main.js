@@ -1,1 +1,1 @@
-console.log("QbitNode website loaded");
+console.log("BDbite website loaded");
